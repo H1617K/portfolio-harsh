@@ -1,9 +1,12 @@
 import './App.css';
+import { Header } from './components/Header/Header';
+import { GlobalStyle } from './styles/global.ts';
 
 function App() {
   return (
     <>
-    <h1>Harsh</h1>
+    <GlobalStyle></GlobalStyle>
+    <Header></Header>
     </>
   );
 }
