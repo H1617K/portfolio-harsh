@@ -23,8 +23,8 @@ export function Header () {
         <Container classList="header-fixed">
             <Router>
                 <HashLink smooth to="home" className='logo'>
-                    <span>{"Harsh"}</span>
-                    <span>{"Raval"}</span>
+                    <span>{"< Harsh "}</span>
+                    <span>{"Raval />"}</span>
                 </HashLink>
 
                 <input 
