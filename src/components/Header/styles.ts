@@ -133,7 +133,7 @@ display: flex;
   }
 
   input:checked + label {
-    background: var(--pink);
+    background: var(--Gray);
   }
 
   input:checked + label:after {
@@ -171,7 +171,7 @@ display: flex;
       background-color: var(--green);
 
       a.button{
-        background-color: var(--pink);
+        background-color: var(--Gray);
       }
 
       &.active{
