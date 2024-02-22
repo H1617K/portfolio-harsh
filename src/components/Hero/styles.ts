@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const AnimatedContainer = styled.section`
+export const Container = styled.section`
 margin-left: 6%;
   padding-top: 15%;
   display: flex;
