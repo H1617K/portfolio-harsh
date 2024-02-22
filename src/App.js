@@ -1,4 +1,5 @@
 import './App.css';
+import { About } from './components/About/About.js';
 import { Contact } from './components/Contact/Contact.js';
 import { Footer } from './components/Footer/Footer.js';
 import { Header } from './components/Header/Header';
@@ -11,6 +12,7 @@ function App() {
     <GlobalStyle></GlobalStyle>
     <Header></Header>
     <Hero></Hero>
+    <About></About>
     <Contact></Contact>
     <Footer></Footer>
     </>
