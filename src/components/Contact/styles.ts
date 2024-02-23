@@ -27,12 +27,12 @@ export const Container = styled.section`
       display: flex;
       align-items: center;
       justify-content: center;
-      width: 50%;
+      width: 20%;
       max-width: 30rem;
       gap: 2rem;
       background-color: var(--green);
       border-radius: 1.4rem;
-      padding: 1.6rem 2.8rem;
+      padding: 1.5rem 2.8rem;
       transition: background-color 0.25s;
       img{
         width: 4rem;
