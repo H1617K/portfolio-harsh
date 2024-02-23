@@ -1,19 +1,16 @@
 import './App.css';
-import { About } from './components/About/About.js';
-import { Contact } from './components/Contact/Contact.js';
 import { Footer } from './components/Footer/Footer.js';
 import { Header } from './components/Header/Header';
-import { Hero } from './components/Hero/Hero.js';
+import { Main } from './components/Main/Main.js';
 import { GlobalStyle } from './styles/global.ts';
+import 'react-toastify/dist/ReactToastify.css'
 
 function App() {
   return (
     <>
     <GlobalStyle></GlobalStyle>
     <Header></Header>
-    <Hero></Hero>
-    <About></About>
-    <Contact></Contact>
+    <Main></Main>
     <Footer></Footer>
     </>
   );
