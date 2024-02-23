@@ -4,6 +4,7 @@ import { Container } from "../Main/styles.ts";
 import { Hero } from "../Hero/Hero.js";
 import { About } from "../About/About.js";
 import { Contact } from "../Contact/Contact.js";
+import { Project } from '../Project/Project.js'
 
 // Importing your icons
 import wordpress from "../../assets/wordpress.svg";
@@ -251,6 +252,7 @@ export function Main() {
       {/* Your other components */}
       <Hero />
       <About />
+      <Project></Project>
       <Contact />
     </Container>
   );
